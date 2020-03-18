@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Jumoo.CdfHealthChecker</id>
+    <version>8.0.0</version>
+    <title>Umbraco Health Check for ClientDependency Cache</title>
+    <authors>Kevin Jump</authors>
+    <owners>Jumoo</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description><![CDATA[Client Dependency Framework Health Checks for umbraco.]]></description>
+    <releaseNotes>
+<![CDATA[v1 - Umbraco v7 Release   
+v8 - Umbraco v8 release]]></releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>Umbraco</tags>
+  </metadata>
+  <files>
+    <file src="bin\release\Our.Umbraco.CDFHealthCheck.dll" target="lib\net472"/>
+    <file src="App_Plugins\CDFHealthCheck\**\*.*" target="content\App_Plugins\CDFHealthCheck" />
+  </files>
+</package>
