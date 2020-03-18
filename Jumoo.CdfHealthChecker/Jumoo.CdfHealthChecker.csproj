@@ -259,11 +259,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="App_Plugins\CDFHealthCheck\package.manifest" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <None Include="Config\Lang\en-US.user.xml.install.xdt" />
+    <Content Include="App_Plugins\CDFHealthCheck\healthcheck.js" />
+    <Content Include="App_Plugins\CDFHealthCheck\Lang\en-us.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\AutoMapper.3.3.1\tools\AutoMapper.targets" Condition="Exists('..\packages\AutoMapper.3.3.1\tools\AutoMapper.targets')" />
